@@ -1,14 +1,83 @@
 {
-    "providers": {
-        "awscloudformation": {
-            "AuthRoleName": "luhotinder-20181006115958-authRole",
-            "UnauthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-authRole",
-            "Region": "us-west-2",
-            "DeploymentBucketName": "luhotinder-20181006115958-deployment",
-            "UnauthRoleName": "luhotinder-20181006115958-unauthRole",
-            "StackName": "luhotinder-20181006115958",
-            "StackId": "arn:aws:cloudformation:us-west-2:718736536177:stack/luhotinder-20181006115958/059382a0-c99a-11e8-a9ed-503aca41a0fd"
-        }
-    }
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "luhotinder-20181006115958-authRole",
+			"UnauthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "luhotinder-20181006115958-deployment",
+			"UnauthRoleName": "luhotinder-20181006115958-unauthRole",
+			"StackName": "luhotinder-20181006115958",
+			"StackId": "arn:aws:cloudformation:us-west-2:718736536177:stack/luhotinder-20181006115958/059382a0-c99a-11e8-a9ed-503aca41a0fd"
+		}
+	},
+	"function": {
+		"StoreDatabase": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true,
+			"dependsOn": [],
+			"lastBuildTimeStamp": "2018-10-06T21:07:05.974Z",
+			"lastPackageTimeStamp": "2018-10-06T21:07:06.930Z",
+			"distZipFilename": "StoreDatabase-1538860025-latest-build.zip",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/luhotinder-20181006115958-deployment/amplify-cfn-templates/function/StoreDatabase-cloudformation-template.json",
+				"logicalId": "functionStoreDatabase"
+			},
+			"lastPushTimeStamp": "2018-10-06T21:09:44.707Z",
+			"output": {
+				"Region": "us-west-2",
+				"Arn": "arn:aws:lambda:us-west-2:718736536177:function:StoreDatabase",
+				"Name": "StoreDatabase"
+			},
+			"lastPushDirHash": "MElHJJOyRNp64+PnwzwiP7FpNUU="
+		}
+	},
+	"auth": {
+		"cognito05e6760f": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/luhotinder-20181006115958-deployment/amplify-cfn-templates/auth/cognito05e6760f-cloudformation-template.yml",
+				"logicalId": "authcognito05e6760f"
+			},
+			"lastPushTimeStamp": "2018-10-06T21:09:44.707Z",
+			"output": {
+				"AppClientSecret": "ionet17ohi7n804o2b3f81ugkv1t5i0sajk99s49drhr5r8i931",
+				"UserPoolId": "us-west-2_EDrVkIVy3",
+				"AppClientIDWeb": "7vjf6lqb0bmap6qssrfvsl9gj5",
+				"AppClientID": "34dvtv2gra2nstsi4tkk1rp7u7",
+				"IdentityPoolId": "us-west-2:9cf7864d-4b7a-4790-a24b-83562b97cfd2",
+				"IdentityPoolName": "flushotfinder_identitypool_6b81347d",
+				"UserPoolName": "flushotfinder_userpool_6b81347d"
+			},
+			"lastPushDirHash": "gk0TY8Ja7ZiAwiMSKYDq4UdhLBA="
+		}
+	},
+	"api": {
+		"StoreDatabase": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "StoreDatabase",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/luhotinder-20181006115958-deployment/amplify-cfn-templates/api/StoreDatabase-cloudformation-template.json",
+				"logicalId": "apiStoreDatabase"
+			},
+			"lastPushTimeStamp": "2018-10-06T21:09:44.707Z",
+			"output": {
+				"ApiName": "StoreDatabase",
+				"RootUrl": "https://dk16qbwfpi.execute-api.us-west-2.amazonaws.com/Prod"
+			},
+			"lastPushDirHash": "gApzqggcYzaj/oaw4IN7pB9H7Jk="
+		}
+	}
 }
