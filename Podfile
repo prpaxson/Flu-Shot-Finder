@@ -6,5 +6,7 @@ target 'Flu Shot Finder' do
     pod 'GoogleMaps'
     pod 'GooglePlaces'
     
+    # <-- Amazon AWS Stuff Below -->
     pod 'AWSDynamoDB', '~> 2.6.13'
+    pod 'AWSMobileClient', '~> 2.6.13'
 end
