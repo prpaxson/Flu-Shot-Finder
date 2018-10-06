@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		5336E9E8D9A1224F34D7C243 /* libPods-Flu Shot Finder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flu Shot Finder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.release.xcconfig"; sourceTree = "<group>"; };
-		62FE65BA21693F8700A07EB8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		62FE65BA21693F8700A07EB8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF90D5AF216931880063CEF9 /* Flu Shot Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flu Shot Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5B2216931880063CEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF90D5B4216931880063CEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -513,7 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QWN5ZWD52W;
+				DEVELOPMENT_TEAM = R3M7P9E6GW;
 				INFOPLIST_FILE = "Flu Shot Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,7 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QWN5ZWD52W;
+				DEVELOPMENT_TEAM = R3M7P9E6GW;
 				INFOPLIST_FILE = "Flu Shot Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
