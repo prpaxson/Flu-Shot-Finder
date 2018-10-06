@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4798455ACF5DE23114F50437 /* libPods-Flu Shot Finder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336E9E8D9A1224F34D7C243 /* libPods-Flu Shot Finder.a */; };
+		62FE65BB21693F8700A07EB8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62FE65BA21693F8700A07EB8 /* Podfile */; };
 		AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5B2216931880063CEF9 /* AppDelegate.swift */; };
 		AF90D5B5216931880063CEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5B4216931880063CEF9 /* ViewController.swift */; };
 		AF90D5B8216931880063CEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5B6216931880063CEF9 /* Main.storyboard */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5336E9E8D9A1224F34D7C243 /* libPods-Flu Shot Finder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flu Shot Finder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.release.xcconfig"; sourceTree = "<group>"; };
+		62FE65BA21693F8700A07EB8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AF90D5AF216931880063CEF9 /* Flu Shot Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flu Shot Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5B2216931880063CEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF90D5B4216931880063CEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		AF90D5CE216931890063CEF9 /* Flu Shot FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flu Shot FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5D2216931890063CEF9 /* Flu_Shot_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flu_Shot_FinderUITests.swift; sourceTree = "<group>"; };
 		AF90D5D4216931890063CEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE4D5D1730E45088AB02100 /* Pods-Flu Shot Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4798455ACF5DE23114F50437 /* libPods-Flu Shot Finder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06000E75AA919D5BB38840D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5336E9E8D9A1224F34D7C243 /* libPods-Flu Shot Finder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF90D5A6216931880063CEF9 = {
 			isa = PBXGroup;
 			children = (
+				62FE65BA21693F8700A07EB8 /* Podfile */,
 				AF90D5B1216931880063CEF9 /* Flu Shot Finder */,
 				AF90D5C6216931890063CEF9 /* Flu Shot FinderTests */,
 				AF90D5D1216931890063CEF9 /* Flu Shot FinderUITests */,
 				AF90D5B0216931880063CEF9 /* Products */,
+				B29A8EAD2B1EAE704DEA71B6 /* Pods */,
+				06000E75AA919D5BB38840D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +143,15 @@
 			path = "Flu Shot FinderUITests";
 			sourceTree = "<group>";
 		};
+		B29A8EAD2B1EAE704DEA71B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4D5D1730E45088AB02100 /* Pods-Flu Shot Finder.debug.xcconfig */,
+				57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF90D5D7216931890063CEF9 /* Build configuration list for PBXNativeTarget "Flu Shot Finder" */;
 			buildPhases = (
+				DFA3D6E78FC51E8B40CA30BD /* [CP] Check Pods Manifest.lock */,
 				AF90D5AB216931880063CEF9 /* Sources */,
 				AF90D5AC216931880063CEF9 /* Frameworks */,
 				AF90D5AD216931880063CEF9 /* Resources */,
+				92115F70BDBC0EB604270CC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +260,7 @@
 			files = (
 				AF90D5BD216931890063CEF9 /* LaunchScreen.storyboard in Resources */,
 				AF90D5BA216931890063CEF9 /* Assets.xcassets in Resources */,
+				62FE65BB21693F8700A07EB8 /* Podfile in Resources */,
 				AF90D5B8216931880063CEF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +280,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92115F70BDBC0EB604270CC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA3D6E78FC51E8B40CA30BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flu Shot Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF90D5AB216931880063CEF9 /* Sources */ = {
@@ -430,10 +509,11 @@
 		};
 		AF90D5D8216931890063CEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE4D5D1730E45088AB02100 /* Pods-Flu Shot Finder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R3M7P9E6GW;
+				DEVELOPMENT_TEAM = QWN5ZWD52W;
 				INFOPLIST_FILE = "Flu Shot Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +528,11 @@
 		};
 		AF90D5D9216931890063CEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R3M7P9E6GW;
+				DEVELOPMENT_TEAM = QWN5ZWD52W;
 				INFOPLIST_FILE = "Flu Shot Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
