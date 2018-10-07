@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		629DD1E42169C1FC00C53E5C /* Startpg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DD1E32169C1FC00C53E5C /* Startpg.swift */; };
+		629DD1E62169C8BB00C53E5C /* Beginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DD1E52169C8BB00C53E5C /* Beginning.swift */; };
 		62FE65BB21693F8700A07EB8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62FE65BA21693F8700A07EB8 /* Podfile */; };
 		8D1D547221699CEE00E04F07 /* VCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D547121699CEE00E04F07 /* VCC.swift */; };
 		8D97D60D2169A6C7007546CC /* CM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D97D60C2169A6C7007546CC /* CM.swift */; };
@@ -20,7 +22,6 @@
 		AF90D5BD216931890063CEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5BB216931890063CEF9 /* LaunchScreen.storyboard */; };
 		AF90D5C8216931890063CEF9 /* Flu_Shot_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5C7216931890063CEF9 /* Flu_Shot_FinderTests.swift */; };
 		AF90D5D3216931890063CEF9 /* Flu_Shot_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5D2216931890063CEF9 /* Flu_Shot_FinderUITests.swift */; };
-		CDC0A17621699196007F5653 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A17521699196007F5653 /* MapViewController.swift */; };
 		CDC0A1782169A656007F5653 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = CDC0A1772169A656007F5653 /* style.json */; };
 		EA1610C1D4CF6F09EB538DEF /* Pods_Flu_Shot_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421C2523E526CA19B64EFE42 /* Pods_Flu_Shot_Finder.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,8 @@
 /* Begin PBXFileReference section */
 		421C2523E526CA19B64EFE42 /* Pods_Flu_Shot_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flu_Shot_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.release.xcconfig"; sourceTree = "<group>"; };
+		629DD1E32169C1FC00C53E5C /* Startpg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startpg.swift; sourceTree = "<group>"; };
+		629DD1E52169C8BB00C53E5C /* Beginning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beginning.swift; sourceTree = "<group>"; };
 		62FE65BA21693F8700A07EB8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D1D547121699CEE00E04F07 /* VCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCC.swift; sourceTree = "<group>"; };
 		8D97D60C2169A6C7007546CC /* CM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CM.swift; sourceTree = "<group>"; };
@@ -129,8 +132,10 @@
 			children = (
 				AF90D5B2216931880063CEF9 /* AppDelegate.swift */,
 				AF90D5B4216931880063CEF9 /* ViewController.swift */,
+				629DD1E32169C1FC00C53E5C /* Startpg.swift */,
 				8D1D547121699CEE00E04F07 /* VCC.swift */,
 				8D97D60C2169A6C7007546CC /* CM.swift */,
+				629DD1E52169C8BB00C53E5C /* Beginning.swift */,
 				AF90D5B6216931880063CEF9 /* Main.storyboard */,
 				CDC0A17521699196007F5653 /* MapViewController.swift */,
 				CDC0A1772169A656007F5653 /* style.json */,
@@ -375,6 +380,8 @@
 				AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */,
 				8D97D60D2169A6C7007546CC /* CM.swift in Sources */,
 				AF5F8AC821697EF8009304C5 /* FluShotProviders.swift in Sources */,
+				629DD1E62169C8BB00C53E5C /* Beginning.swift in Sources */,
+				629DD1E42169C1FC00C53E5C /* Startpg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
