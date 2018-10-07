@@ -42,7 +42,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="41I-Yz-Xh4" kind="showDetail" identifier="gotoS" id="Qz4-Uh-GiP"/>
+                        <segue destination="41I-Yz-Xh4" kind="show" identifier="gotoS" id="Qz4-Uh-GiP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -63,7 +63,7 @@
                                 <state key="normal" title="Continue"/>
                                 <connections>
                                     <action selector="toMap:" destination="41I-Yz-Xh4" eventType="touchUpInside" id="skX-qp-uEw"/>
-                                    <segue destination="QHd-qo-34b" kind="showDetail" identifier="gotoMap" id="xAw-Ge-QmI"/>
+                                    <segue destination="QHd-qo-34b" kind="show" identifier="gotoMap" id="xAw-Ge-QmI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -184,6 +184,6 @@ Your Shot</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Icon-60" width="90" height="90"/>
+        <image name="Icon-60" width="57.599998474121094" height="57.599998474121094"/>
     </resources>
 </document>
