@@ -65,7 +65,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5bU-e2-tHs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FluShotFinderIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5bU-e2-tHs">
                                 <rect key="frame" x="0.0" y="64" width="375" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -97,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5j1-4L-Efa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="751"/>
+            <point key="canvasLocation" x="-449" y="751"/>
         </scene>
         <!--postalcode-->
         <scene sceneID="cAV-49-JkM">
@@ -157,7 +157,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="65W-yP-6pa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FluShotFinderIcon" translatesAutoresizingMaskIntoConstraints="NO" id="65W-yP-6pa">
                                 <rect key="frame" x="0.0" y="64" width="375" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -172,6 +172,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AppIcon" width="354.72000122070312" height="206.8800048828125"/>
+        <image name="FluShotFinderIcon" width="354.72000122070312" height="206.8800048828125"/>
     </resources>
 </document>
