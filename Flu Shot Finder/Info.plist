@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Location Services used to enhance search</string>
+	<string>Location Services used to enhance flu shot search</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera needed to take photo of proof of immunization</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>googlechromes</string>

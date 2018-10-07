@@ -11,7 +11,7 @@ import UIKit
 class VCC: UIViewController {
     
     @IBAction func completeShot(_ sender: Any) {
-        self.performSegueWithIdentifier("picTime", sender: self)
+        self.performSegue(withIdentifier: "picTime", sender: self)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
