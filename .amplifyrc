@@ -1,14 +1,14 @@
 {
     "providers": {
         "awscloudformation": {
-            "AuthRoleName": "luhotinder-20181006115958-authRole",
-            "UnauthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-authRole",
+            "AuthRoleName": "luhotinder-20181006160726-authRole",
+            "UnauthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006160726-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006160726-authRole",
             "Region": "us-west-2",
-            "DeploymentBucketName": "luhotinder-20181006115958-deployment",
-            "UnauthRoleName": "luhotinder-20181006115958-unauthRole",
-            "StackName": "luhotinder-20181006115958",
-            "StackId": "arn:aws:cloudformation:us-west-2:718736536177:stack/luhotinder-20181006115958/059382a0-c99a-11e8-a9ed-503aca41a0fd"
+            "DeploymentBucketName": "luhotinder-20181006160726-deployment",
+            "UnauthRoleName": "luhotinder-20181006160726-unauthRole",
+            "StackName": "luhotinder-20181006160726",
+            "StackId": "arn:aws:cloudformation:us-west-2:718736536177:stack/luhotinder-20181006160726/97a24970-c9bc-11e8-9b07-028146f68342"
         }
     }
 }

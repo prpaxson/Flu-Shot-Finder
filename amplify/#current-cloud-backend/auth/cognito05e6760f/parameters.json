@@ -1,0 +1,56 @@
+{
+    "identityPoolName": "flushotfinder_identitypool_6b81347d",
+    "allowUnauthenticatedIdentities": true,
+    "thirdPartyAuth": false,
+    "lambdaLogPolicy": "flushotfinder_lambda_log_policy",
+    "openIdLambdaRoleName": "flushotfinder_openid_lambda_role",
+    "openIdRolePolicy": "flushotfinder_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "flushotfinder_openid_lambda_iam_policy",
+    "openIdLogPolicy": "flushotfinder_openid_lambda_log_policy",
+    "userPoolName": "flushotfinder_userpool_6b81347d",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "roleName": "flushotfinder_sns-role",
+    "roleExternalId": "flushotfinder_role_external_id",
+    "policyName": "flushotfinder-sns-policy",
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [
+        "Requires Lowercase",
+        "Requires Uppercase",
+        "Requires Numbers",
+        "Requires Symbols"
+    ],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientName": "flushotfinder_app_client",
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "mfaLambdaRole": "flushotfinder_totp_lambda_role",
+    "mfaLambdaLogPolicy": "flushotfinder_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "flushotfinder_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "flushotfinder_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "flushotfinder_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "flushotfinder_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "flushotfinder_userpoolclient_lambda_iam_policy",
+    "userpoolClientSetAttributes": false,
+    "authSelections": "identityPoolAndUserPool",
+    "resourceName": "cognito05e6760f",
+    "unAuthRoleName": "luhotinder-20181006115958-unauthRole",
+    "authRoleName": "luhotinder-20181006115958-authRole",
+    "unAuthRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-unauthRole",
+    "authRoleArn": "arn:aws:iam::718736536177:role/luhotinder-20181006115958-authRole"
+}

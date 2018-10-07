@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/StoreDatabase",
+            "lambdaFunction": "StoreDatabase",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "r"
+            }
+        }
+    ],
+    "resourceName": "StoreDatabase",
+    "apiName": "flushotfinder0f62af49",
+    "functionArns": [
+        {
+            "lambdaFunction": "StoreDatabase"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "luhotinder-20181006115958-authRole",
+        "unAuthRoleName": "luhotinder-20181006115958-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "StoreDatabase",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
