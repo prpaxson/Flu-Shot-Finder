@@ -71,15 +71,53 @@ Your Shot</string>
                                     <string key="title">Take Picture of
 Flu Shot Receipt</string>
                                 </state>
+                                <connections>
+                                    <action selector="capture:" destination="j4u-WV-enH" eventType="touchUpInside" id="P65-bu-17o"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEr-Bc-NyI">
+                                <rect key="frame" x="20" y="28" width="335" height="506"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWa-uC-ptW">
+                                <rect key="frame" x="142" y="617" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" red="0.0" green="0.65669527202072531" blue="0.28372305495091166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHp-rD-E1k">
+                                <rect key="frame" x="235" y="609" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iX8-fY-5qa"/>
                     </view>
+                    <connections>
+                        <outlet property="capture" destination="nXz-FO-hfp" id="Xaz-Cn-4dc"/>
+                        <outlet property="myImg" destination="hEr-Bc-NyI" id="1mt-Io-Lgf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U0V-h9-ZlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1390" y="30"/>
+            <point key="canvasLocation" x="1389.5999999999999" y="29.23538230884558"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pgS-tP-7a9">
+            <objects>
+                <viewController id="2Bd-Nl-hkx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XDe-Ok-l4J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eLq-e5-4xm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQR-EJ-I95" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1366" y="689"/>
         </scene>
     </scenes>
 </document>
