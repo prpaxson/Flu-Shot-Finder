@@ -2,13 +2,15 @@
 //  AppDelegate.swift
 //  Flu Shot Finder
 //
-//  Created by Patrick Paxson on 10/6/18.
+//  Created by Patrick Paxson and Kevin Resler on 10/6/18.
 //  Copyright © 2018 Patrick Paxson. All rights reserved.
 //
 
 import UIKit
 import AWSMobileClient
 import AWSCore
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,9 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Create AWSMobileClient to connect with AWS
         AWSDDLog.add(AWSDDTTYLogger.sharedInstance)
         AWSDDLog.sharedInstance.logLevel = .info
+        GMSServices.provideAPIKey("<#T##APIKey: String##String#>")
+        GMSPlacesClient.provideAPIKey("YOUR_API_KEY")
         return AWSMobileClient.sharedInstance().interceptApplication(
             application,
             didFinishLaunchingWithOptions: launchOptions)
+        
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
