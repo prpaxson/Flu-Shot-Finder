@@ -23,12 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Create AWSMobileClient to connect with AWS
         AWSDDLog.add(AWSDDTTYLogger.sharedInstance)
         AWSDDLog.sharedInstance.logLevel = .info
+        GMSServices.provideAPIKey("<#T##APIKey: String##String#>")
+        GMSPlacesClient.provideAPIKey("YOUR_API_KEY")
         return AWSMobileClient.sharedInstance().interceptApplication(
             application,
             didFinishLaunchingWithOptions: launchOptions)
         
-        GMSServices.provideAPIKey("<#T##APIKey: String##String#>")
-        GMSPlacesClient.provideAPIKey("YOUR_API_KEY")
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

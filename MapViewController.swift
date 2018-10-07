@@ -19,9 +19,9 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         let location: CLLocation = locations.last!
         print("Location: \(location)")
         
-        let camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude,
-                                              longitude: location.coordinate.longitude,
-                                              zoom: zoomLevel)
+        let camera = GMSCameraPosition.camera( location.coordinate.latitude,
+                                               location.coordinate.longitude,
+                                              10)
         
         if mapView.isHidden {
             mapView.isHidden = false
@@ -58,8 +58,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         locationManager.delegate = self
         
-        let camera = GMSCameraPosition.camera(withLatitude: defaultLocation.coordinate.latitude,
-                                              longitude: defaultLocation.coordinate.longitude,
+        let camera = GMSCameraPosition.camera(withLatitude: currentLocation.coordinate.latitude,
+                                              currentLocation.coordinate.longitude,
                                               zoom: 10)
         mapView = GMSMapView.map(withFrame: view.bounds, camera: camera)
         mapView.settings.myLocationButton = true
