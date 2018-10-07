@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		62FE65BB21693F8700A07EB8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62FE65BA21693F8700A07EB8 /* Podfile */; };
 		8D1D547221699CEE00E04F07 /* VCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D547121699CEE00E04F07 /* VCC.swift */; };
+		8D97D60D2169A6C7007546CC /* CM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D97D60C2169A6C7007546CC /* CM.swift */; };
 		AF5F8AC821697EF8009304C5 /* FluShotProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */; };
 		AF5F8AC921697EF8009304C5 /* FluShotProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */; };
 		AF5F8ACA21697EF8009304C5 /* FluShotProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */; };
@@ -44,6 +45,7 @@
 		57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.release.xcconfig"; sourceTree = "<group>"; };
 		62FE65BA21693F8700A07EB8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D1D547121699CEE00E04F07 /* VCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCC.swift; sourceTree = "<group>"; };
+		8D97D60C2169A6C7007546CC /* CM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CM.swift; sourceTree = "<group>"; };
 		AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluShotProviders.swift; sourceTree = "<group>"; };
 		AF90D5AF216931880063CEF9 /* Flu Shot Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flu Shot Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5B2216931880063CEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				AF90D5B2216931880063CEF9 /* AppDelegate.swift */,
 				AF90D5B4216931880063CEF9 /* ViewController.swift */,
 				8D1D547121699CEE00E04F07 /* VCC.swift */,
+				8D97D60C2169A6C7007546CC /* CM.swift */,
 				AF90D5B6216931880063CEF9 /* Main.storyboard */,
 				AF90D5B9216931890063CEF9 /* Assets.xcassets */,
 				AF90D5BB216931890063CEF9 /* LaunchScreen.storyboard */,
@@ -363,6 +366,7 @@
 				8D1D547221699CEE00E04F07 /* VCC.swift in Sources */,
 				AF90D5B5216931880063CEF9 /* ViewController.swift in Sources */,
 				AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */,
+				8D97D60D2169A6C7007546CC /* CM.swift in Sources */,
 				AF5F8AC821697EF8009304C5 /* FluShotProviders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
