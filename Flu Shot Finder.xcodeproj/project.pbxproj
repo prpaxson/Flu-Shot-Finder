@@ -17,6 +17,9 @@
 		AF5F8B13216A0A27009304C5 /* UIPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8B12216A0A27009304C5 /* UIPickerController.swift */; };
 		AF5F8B14216A0A27009304C5 /* UIPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8B12216A0A27009304C5 /* UIPickerController.swift */; };
 		AF5F8B15216A0A27009304C5 /* UIPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8B12216A0A27009304C5 /* UIPickerController.swift */; };
+		AF5F8B17216A0D4D009304C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8B16216A0D4D009304C5 /* ViewController.swift */; };
+		AF5F8B18216A0D4D009304C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8B16216A0D4D009304C5 /* ViewController.swift */; };
+		AF5F8B19216A0D4D009304C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8B16216A0D4D009304C5 /* ViewController.swift */; };
 		AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5B2216931880063CEF9 /* AppDelegate.swift */; };
 		AF90D5B8216931880063CEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5B6216931880063CEF9 /* Main.storyboard */; };
 		AF90D5BA216931890063CEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5B9216931890063CEF9 /* Assets.xcassets */; };
@@ -51,6 +54,7 @@
 		AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluShotProviders.swift; sourceTree = "<group>"; };
 		AF5F8B0E216A0565009304C5 /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
 		AF5F8B12216A0A27009304C5 /* UIPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerController.swift; sourceTree = "<group>"; };
+		AF5F8B16216A0D4D009304C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF90D5AF216931880063CEF9 /* Flu Shot Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flu Shot Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5B2216931880063CEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF90D5B7216931880063CEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 				AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */,
 				AF5F8B0E216A0565009304C5 /* SegueFromLeft.swift */,
 				AF5F8B12216A0A27009304C5 /* UIPickerController.swift */,
+				AF5F8B16216A0D4D009304C5 /* ViewController.swift */,
 			);
 			path = "Flu Shot Finder";
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5F8B17216A0D4D009304C5 /* ViewController.swift in Sources */,
 				AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */,
 				AF5F8B0F216A0565009304C5 /* SegueFromLeft.swift in Sources */,
 				AF5F8AC821697EF8009304C5 /* FluShotProviders.swift in Sources */,
@@ -384,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5F8B18216A0D4D009304C5 /* ViewController.swift in Sources */,
 				AF5F8AC921697EF8009304C5 /* FluShotProviders.swift in Sources */,
 				AF5F8B10216A0565009304C5 /* SegueFromLeft.swift in Sources */,
 				AF90D5C8216931890063CEF9 /* Flu_Shot_FinderTests.swift in Sources */,
@@ -395,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5F8B19216A0D4D009304C5 /* ViewController.swift in Sources */,
 				AF5F8ACA21697EF8009304C5 /* FluShotProviders.swift in Sources */,
 				AF5F8B11216A0565009304C5 /* SegueFromLeft.swift in Sources */,
 				AF90D5D3216931890063CEF9 /* Flu_Shot_FinderUITests.swift in Sources */,
