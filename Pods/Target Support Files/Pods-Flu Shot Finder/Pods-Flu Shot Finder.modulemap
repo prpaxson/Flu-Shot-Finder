@@ -1,0 +1,6 @@
+framework module Pods_Flu_Shot_Finder {
+  umbrella header "Pods-Flu Shot Finder-umbrella.h"
+
+  export *
+  module * { export * }
+}
