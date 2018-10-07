@@ -245,6 +245,11 @@
 				TargetAttributes = {
 					AF90D5AE216931880063CEF9 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					AF90D5C2216931890063CEF9 = {
 						CreatedOnToolsVersion = 10.0;
