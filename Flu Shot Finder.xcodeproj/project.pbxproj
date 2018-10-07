@@ -20,7 +20,6 @@
 		AF90D5BD216931890063CEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5BB216931890063CEF9 /* LaunchScreen.storyboard */; };
 		AF90D5C8216931890063CEF9 /* Flu_Shot_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5C7216931890063CEF9 /* Flu_Shot_FinderTests.swift */; };
 		AF90D5D3216931890063CEF9 /* Flu_Shot_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5D2216931890063CEF9 /* Flu_Shot_FinderUITests.swift */; };
-		CDC0A17621699196007F5653 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A17521699196007F5653 /* MapViewController.swift */; };
 		CDC0A1782169A656007F5653 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = CDC0A1772169A656007F5653 /* style.json */; };
 		EA1610C1D4CF6F09EB538DEF /* Pods_Flu_Shot_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421C2523E526CA19B64EFE42 /* Pods_Flu_Shot_Finder.framework */; };
 /* End PBXBuildFile section */
@@ -240,6 +239,11 @@
 				TargetAttributes = {
 					AF90D5AE216931880063CEF9 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					AF90D5C2216931890063CEF9 = {
 						CreatedOnToolsVersion = 10.0;
