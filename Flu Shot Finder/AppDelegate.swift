@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        GMSServices.provideAPIKey("<#T##APIKey: String##String#>")
-        GMSPlacesClient.provideAPIKey("YOUR_API_KEY")
+        GMSServices.provideAPIKey("AIzaSyBxM__YmkWkPoT4_NF0YmXzm9BhFDK_laQ")
+        GMSPlacesClient.provideAPIKey("AIzaSyBxM__YmkWkPoT4_NF0YmXzm9BhFDK_laQ")
         // Create AWSMobileClient to connect with AWS
         return true
         }
