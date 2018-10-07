@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		62FE65BB21693F8700A07EB8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 62FE65BA21693F8700A07EB8 /* Podfile */; };
-		AF5F8AC4216967F6009304C5 /* StoreDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC3216967F6009304C5 /* StoreDatabase.swift */; };
+		AF5F8AC821697EF8009304C5 /* FluShotProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */; };
+		AF5F8AC921697EF8009304C5 /* FluShotProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */; };
+		AF5F8ACA21697EF8009304C5 /* FluShotProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */; };
 		AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5B2216931880063CEF9 /* AppDelegate.swift */; };
 		AF90D5B5216931880063CEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5B4216931880063CEF9 /* ViewController.swift */; };
 		AF90D5B8216931880063CEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5B6216931880063CEF9 /* Main.storyboard */; };
@@ -40,7 +42,7 @@
 		421C2523E526CA19B64EFE42 /* Pods_Flu_Shot_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flu_Shot_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C4DEDA7894033D151028D4 /* Pods-Flu Shot Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.release.xcconfig"; sourceTree = "<group>"; };
 		62FE65BA21693F8700A07EB8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF5F8AC3216967F6009304C5 /* StoreDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDatabase.swift; sourceTree = "<group>"; };
+		AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluShotProviders.swift; sourceTree = "<group>"; };
 		AF90D5AF216931880063CEF9 /* Flu Shot Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flu Shot Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5B2216931880063CEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF90D5B4216931880063CEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,13 +119,13 @@
 		AF90D5B1216931880063CEF9 /* Flu Shot Finder */ = {
 			isa = PBXGroup;
 			children = (
-				AF5F8AC3216967F6009304C5 /* StoreDatabase.swift */,
 				AF90D5B2216931880063CEF9 /* AppDelegate.swift */,
 				AF90D5B4216931880063CEF9 /* ViewController.swift */,
 				AF90D5B6216931880063CEF9 /* Main.storyboard */,
 				AF90D5B9216931890063CEF9 /* Assets.xcassets */,
 				AF90D5BB216931890063CEF9 /* LaunchScreen.storyboard */,
 				AF90D5BE216931890063CEF9 /* Info.plist */,
+				AF5F8AC721697EF8009304C5 /* FluShotProviders.swift */,
 			);
 			path = "Flu Shot Finder";
 			sourceTree = "<group>";
@@ -367,9 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5F8AC4216967F6009304C5 /* StoreDatabase.swift in Sources */,
 				AF90D5B5216931880063CEF9 /* ViewController.swift in Sources */,
 				AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */,
+				AF5F8AC821697EF8009304C5 /* FluShotProviders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5F8AC921697EF8009304C5 /* FluShotProviders.swift in Sources */,
 				AF90D5C8216931890063CEF9 /* Flu_Shot_FinderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5F8ACA21697EF8009304C5 /* FluShotProviders.swift in Sources */,
 				AF90D5D3216931890063CEF9 /* Flu_Shot_FinderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
