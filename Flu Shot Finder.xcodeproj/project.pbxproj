@@ -16,6 +16,7 @@
 		AF90D5BD216931890063CEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90D5BB216931890063CEF9 /* LaunchScreen.storyboard */; };
 		AF90D5C8216931890063CEF9 /* Flu_Shot_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5C7216931890063CEF9 /* Flu_Shot_FinderTests.swift */; };
 		AF90D5D3216931890063CEF9 /* Flu_Shot_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90D5D2216931890063CEF9 /* Flu_Shot_FinderUITests.swift */; };
+		CDC0A17621699196007F5653 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A17521699196007F5653 /* MapViewController.swift */; };
 		EA1610C1D4CF6F09EB538DEF /* Pods_Flu_Shot_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421C2523E526CA19B64EFE42 /* Pods_Flu_Shot_Finder.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		AF90D5CE216931890063CEF9 /* Flu Shot FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flu Shot FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90D5D2216931890063CEF9 /* Flu_Shot_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flu_Shot_FinderUITests.swift; sourceTree = "<group>"; };
 		AF90D5D4216931890063CEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC0A17521699196007F5653 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		DFE4D5D1730E45088AB02100 /* Pods-Flu Shot Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flu Shot Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				AF90D5B2216931880063CEF9 /* AppDelegate.swift */,
 				AF90D5B4216931880063CEF9 /* ViewController.swift */,
 				AF90D5B6216931880063CEF9 /* Main.storyboard */,
+				CDC0A17521699196007F5653 /* MapViewController.swift */,
 				AF90D5B9216931890063CEF9 /* Assets.xcassets */,
 				AF90D5BB216931890063CEF9 /* LaunchScreen.storyboard */,
 				AF90D5BE216931890063CEF9 /* Info.plist */,
@@ -291,8 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
@@ -301,8 +302,6 @@
 				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
@@ -319,16 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Flu Shot Finder/Pods-Flu Shot Finder-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
@@ -343,15 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Flu Shot Finder-checkManifestLockResult.txt",
 			);
@@ -370,6 +361,7 @@
 				AF5F8AC4216967F6009304C5 /* StoreDatabase.swift in Sources */,
 				AF90D5B5216931880063CEF9 /* ViewController.swift in Sources */,
 				AF90D5B3216931880063CEF9 /* AppDelegate.swift in Sources */,
+				CDC0A17621699196007F5653 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
